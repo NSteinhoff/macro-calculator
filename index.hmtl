@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Macro Calculator</title>
+    </head>
+    <body>
+        <h1>Macro calculator</h1>
+        <p>
+            This is a simple macro-nutrient calculator.
+            It estimates you total daily energy expenditure (TDEE) and sets your caloric needs
+            according to your stated goals.
+        </p>
+    </body>
+</html>
