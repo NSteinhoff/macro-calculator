@@ -12,6 +12,10 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    color: #cc0000;
+}
+
 main {
     background-color: #f4f4f4;
     float: left;
