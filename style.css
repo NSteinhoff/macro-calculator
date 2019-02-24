@@ -55,19 +55,51 @@ section {
     padding-bottom: 25px;
 }
 
+form {
+    margin: 0 auto;
+}
+
+label {
+    display: inline-block;
+    width: 25%;
+    margin: .2em auto;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 25%;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: .25em;
+}
+
+input:focus, textarea:focus {
+    border-width: 2px;
+}
+
 /* Clear floating */
 .clr {
     clear: both;
 }
 
 /* Basic button style */
-.button {
+button, .button {
+    border: none;
     padding: 10px;
     background-color: #333;
     color: #f4f4f4;
 }
-.button:hover {
+button:hover, .button:hover {
     background-color: #cc0000;
+    color: #f4f4f4;
+}
+
+.button--submit {
+    text-align:center;
+    width: 25%;
+    margin: .6em;
 }
 
 /* 3 Column floating boxes */

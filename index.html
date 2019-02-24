@@ -33,6 +33,36 @@
                         and sets your caloric needs according to your stated goals.
                     </p>
                 </article>
+                <form>
+                    <div>
+                        <label for="height">Height:</label>
+                        <input id="height" type="number" name="user_height">
+                    </div>
+                    <div>
+                        <label for="age">Age:</label>
+                        <input id="age" type="number" name="user_age">
+                    </div>
+                    <div>
+                        <label for="weight">Weight:</label>
+                        <input id="weight" type="number" name="user_weight">
+                    </div>
+                    <div>
+                        <label for="bodyfat">Bodyfat Percentage:</label>
+                        <input id="bodyfat" type="number" name="user_bodyfat">
+                    </div>
+                    <div>
+                        <label for="activity-level">Activity Level:</label>
+                        <select id="activity-level" name="user_activity">
+                            <option value="sedentary">Sedentary</option>
+                            <option value="light">Lightly Active</option>
+                            <option value="moderate">Moderately Active</option>
+                            <option value="heavy">Very Active</option>
+                        </select>
+                    </div>
+                    <div class="button button--submit">
+                        <button type="button">Estimate TDDE</button>
+                    </div>
+                </form>
             </section>
 
             <section>
