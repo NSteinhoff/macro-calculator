@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: #3399ff;
+    color: #2288ee;
     text-decoration: none;
     font-weight: bold;
 }
@@ -26,8 +26,8 @@ main {
 }
 
 aside {
-    background-color: #333;
-    color: #f4f4f4;
+    color: #333;
+    background-color: #f4f4f4;
     float: right;
     width: 20%;
     margin: auto;
@@ -37,14 +37,16 @@ aside {
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color: #2288ee;
+    color: #f4f4f4;
     margin: 10px auto;
     padding: 10px 20px;
     text-align: center;
 }
 
 footer {
-    background-color: #f4f4f4;
+    background-color: #2288ee;
+    color: #f4f4f4;
     margin: 10px auto;
     padding: 10px 20px;
     text-align: center;
@@ -94,6 +96,10 @@ button, .button {
 button:hover, .button:hover {
     background-color: #cc0000;
     color: #f4f4f4;
+}
+.button--light {
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 .button--submit {
